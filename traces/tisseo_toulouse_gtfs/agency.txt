@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_phone,agency_lang
+6192449487677451,Tisséo,http://www.tisseo.fr,Europe/Paris,05 61 41 70 70,fr
