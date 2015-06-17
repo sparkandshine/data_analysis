@@ -21,6 +21,15 @@ cd tisseo_toulouse_gtfs
 ```
 By the way, my platform is AWS EC2 Ubuntu.
 
+PS: Install mysql on ubuntu:
+
+```bash
+sudo apt-get install mysql-server
+
+sudo apt-get install phpmyadmin  #optional
+sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin  #create a symbolic, http://localhost/phpmyadmin/
+```
+
 #Troubleshooting
 ##The used command is not allowed with this MySQL version
 The reason is that the operation `LOAD DATA LOCAL INFILE` is disable in default, as shown in the mysql offical website:
